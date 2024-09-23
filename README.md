@@ -17,5 +17,7 @@
 1) Increase sequence length provided 
 2) Increase the number of layers and hidden layers
 3) We can try combining the lstm with a fourier transform
-4) We can try other regularization techniques
-5) I can read papers to come up with different solutions if above solutions did not solve it
+   a) Perform the Fast Fourier Transform (FFT) on the predicted and actual wave
+   b) Compute MSE on the frequency components of both
+5) We can try other regularization techniques
+6) I can read papers to come up with different solutions if above solutions did not solve it
