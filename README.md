@@ -16,7 +16,7 @@
 # Conclusions: We can try different solutions in future to fix the results
 1) Increase sequence length provided 
 2) Increase the number of layers and hidden layers
-3) We can try combining the lstm with a fourier transform
+3) We can try combining the lstm with a fourier transform:
    a) Perform the Fast Fourier Transform (FFT) on the predicted and actual wave
    b) Compute MSE on the frequency components of both
 5) We can try other regularization techniques
